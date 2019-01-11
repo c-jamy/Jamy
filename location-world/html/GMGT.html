@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<link rel="icon" href="img/logo.png" type="image/x-icon"/>
+		<title>Location World</title>
+		<link href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+		<script src="https://cdn.bootcss.com/jquery/2.1.1/jquery.min.js"></script> 
+		<script type="text/javascript" src="../js/jquery.js" ></script>
+		<script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		<link rel="stylesheet" href="../css/GMGT.css" />
+		<link rel="stylesheet" href="../css/style.css" />
+		<script type="text/javascript" src="../js/GMGT.js" ></script>
+		<script type="text/javascript" src="../js/pagination.js" ></script>
+		<script type="text/javascript" src="../js/change.js" ></script>
+		
+		
+	</head>
+	<body>
+		<div class="search">
+			<input class="search-name" type="text" placeholder="  输入群名"/>
+			<button class="btn-search"><span class="glyphicon glyphicon-search" style="color: white"></span></button>
+		</div>
+		<table class="table table-hover table-condensed table-striped GMGT-table" style="border: 1px solid gainsboro;margin-top: 5px;">
+			<thead>
+					<tr class="thead">
+						<th class="first"><input type="checkbox" class="all"/>
+							全选</th>
+						<th>群ID</th>
+						<th>群名</th>
+						<th>用途</th>
+						<th>头像</th>
+						<th>群主</th>
+						<th>群主电话</th>
+						<th>群状态</th>
+					</tr>
+				</thead>
+				<tbody></tbody>
+		</table>
+		<div class="btns-group">
+			<input class="set-black" type="button" value="封群" />
+			<input class="cancle-black" type="button" value="解群" />
+			<!--<input class="last-page" type="button" value="<" />
+			<input class="next-page" type="button" value=">" />-->
+			<div id="pagination"></div>
+		</div>
+		
+		<div class="promt">
+			<p class="promt-top">&nbsp;&nbsp;notice</p>
+			<input class="promt-contain" style="border: none;outline: none;"></input>
+			<div class="promt-btns">
+				<button class="cancle">取消</button>
+				<button class="sure">确定</button>
+			</div>
+		</div>
+		
+	</body>
+</html>

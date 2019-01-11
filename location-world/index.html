@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="icon" href="img/logo.png" type="image/x-icon"/>
+		<title>Location World</title>
+		<link href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+	     <!-- jQuery文件。务必在bootstrap.min.js 之前引入 -->
+		<script src="https://cdn.bootcss.com/jquery/2.1.1/jquery.min.js"></script> 
+        <!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
+		<script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		<link rel="stylesheet" href="css/index.css" />
+		<script type="text/javascript" src="js/jquery.js" ></script>
+		<script type="text/javascript" src="js/index.js" ></script>
+		<script>
+		
+		</script>
+	</head>
+	<body>
+		<div id="all">
+			<div id="head">
+				<p>天下纵横后台管理系统</p>
+			</div>
+			
+			<div id="login">
+				<div id="small-login">
+				<form class="bs-example bs-example-form" role="form">	
+					<div class="input-group">
+						<input class="warning" type="text" disabled="true" value=""/>
+					</div>
+					
+					<div class="input-group input-group1">
+						<span class="glyphicon glyphicon-user"  style="color: rgb(0,0,0);border-bottom: 0;"></span>
+						<input type="text" class="form-control username" name="username" placeholder="用户名">
+					</div>
+					
+					<div class="input-group">
+						<span class="glyphicon glyphicon-lock" style="color: rgb(0, 0, 4);"></span>
+						<input type="password" class="form-control password" name="password" placeholder="密码">
+			
+					</div>
+					
+					<div class="input-group">
+						<span class="glyphicon glyphicon-exclamation-sign" style="color: rgb(0,0,0);"></span>
+						<input type="text" class="form-control captcha" placeholder="验证码"/>
+						<span class="get-captcha"></span>
+					</div>
+					<div class="input-group">
+						<input id="forget-pw" type="button" value="忘记密码" />
+						<input id="login-up" class="tt" type="button" value="登录" />
+					</div>
+				</form>
+				</div>
+			</div>
+			<div id="wrong-pw">
+				<p></p>
+			</div>
+		</div>
+		
+	</body>
+</html>

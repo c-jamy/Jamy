@@ -1,0 +1,119 @@
+#all{
+	width: 100%;
+	height: 110%;
+	position: absolute;
+	background-image: url(../img/582345121219444277.png);
+	/*background-image: url(../img/net.jpg);*/
+	background-repeat: no-repeat;
+	background-size: 100% 110%;
+	/*opacity: 0.8;*/
+	/*background-color: rgba(44,0,0,0.5);*/
+	}
+.all-bg{
+	width: 100%;
+	height: 100%;
+	position: relative;
+	left: 0;
+	background-color: rgba(0,0,0,0.6);
+	display: none;
+	}
+#head{
+	width: 50%;
+	height: 10%;
+	position: relative;
+	left: 40%;
+	top: 100px;
+	}
+/*#head-img{           
+	float: left;
+	border-radius: 50%;
+	width: 150px;
+	height: 80px;
+	}*/
+			/*#all-img{
+				width: 20%;
+				height: 60%;
+				position: relative;
+			    left: 30%;
+			    top: 200px;
+			}*/
+#head p{
+	width: 60%;
+	height: 60%;
+	position: relative;
+	left: 2%;
+	top:50%;
+	color: white;
+	font-family: "微软雅黑";
+	font-size: 200%;
+	float: left;
+	}
+#login{
+	width: 25%;
+	height: 250PX;
+	position: relative;
+	left: 38%;
+	top: 200px;
+	border: 1px solid white;
+	border-radius: 5px 5px;
+	/*background-image: url(../img/bbbg.jpg);*/
+	}
+#small-login{
+	
+	width: 90%;
+	height: 220px;
+	position: relative;
+	left: 5%;
+    top: 5%;
+	border: 1px solid grey;
+	}
+.input-group{
+	display: flex;
+	margin-left: 5%;
+	margin-top: 3%;
+	width: 90%;
+	height: 80%;
+	align-items:center;
+	text-decoration:underline;
+	text-underline-color: wheat;
+	}
+.input-group{
+		top: -20PX;
+	}
+.username,.password{
+	margin-left: 2%;
+	}
+.captcha{
+	width: 40%;
+	margin-left: 2%;
+}
+.get-captcha{
+	width: 35%;
+	height: 30px;
+	margin-left: 2%;
+	border: 1px solid gainsboro;
+	color: white;
+	font-size: 16px;
+	font-family: "微软雅黑";
+	/*background-image: url(../img/stars.jpg);*/
+	background-image: url(../img/bbbg.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+#forget-pw,#login-up{
+	width: 35%;
+	height: 30px;
+	border: 0;
+	border-radius: 4px;
+	background-color: rgb(7,165,206);
+	margin-left: 10%;
+	}
+	.warning{
+	height: 15px;
+	border: none;
+	background-color: rgba(0,0,0,0);
+	outline: none;
+	color: red;
+	margin-left: 5%;
+	margin-top: 2px;
+}
